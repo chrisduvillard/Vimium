@@ -1,0 +1,7 @@
+# Insert your preferred key mappings here.
+map ,p visitPreviousTab
+map ; Marks.activateGotoMode
+# optional (defaults exist already, but you can be explicit):
+map m Marks.activateCreateMode
+# optional: disable the default backtick jump
+unmap `
