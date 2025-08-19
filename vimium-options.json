@@ -1,0 +1,15 @@
+{
+  "keyMappings": "# Insert your preferred key mappings here.\nmap ,p visitPreviousTab\nmap ; Marks.activateGotoMode\n# optional (defaults exist already, but you can be explicit):\nmap m Marks.activateCreateMode\n# optional: disable the default backtick jump\nunmap `",
+  "newTabUrl": "www.google.com",
+  "settingsVersion": "2.3",
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://mail.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://localhost:3000/*"
+    }
+  ]
+}
