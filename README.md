@@ -10,8 +10,10 @@ This repository documents my **Vimium** configuration for efficient browser navi
 map ,p visitPreviousTab
 map ; Marks.activateGotoMode
 map m Marks.activateCreateMode
+map ,s enterFindMode
 unmap `
-````
+unmap /
+```
 
 ---
 
@@ -22,6 +24,7 @@ unmap `
 | Keybinding      | Category  | Action                                                                          |
 | --------------- | --------- | ------------------------------------------------------------------------------- |
 | **`,p`**        | 🔄 Tabs   | Switch to the **previously used tab** (like `Alt+Tab` for browser tabs)         |
+| **`,s`**        | 🔍 Search | Enter **find mode** to search text on current page                             |
 | **`m{letter}`** | 🏷️ Marks | Create a **mark** at the current position (local: lowercase, global: uppercase) |
 | **`;{letter}`** | 🏷️ Marks | Jump to a mark (replaces the awkward backtick `` ` `` default)                  |
 | **`ma`**        | 🏷️ Marks | Set a **local mark** `a` (same page only)                                       |
@@ -41,7 +44,8 @@ unmap `
 
 ## 📌 Why These Mappings?
 
-* **`,p`** → ergonomic and memorable for “previous tab.”
+* **`,p`** → ergonomic and memorable for "previous tab."
+* **`,s`** → convenient search activation (replaces the default `/` which can be awkward).
 * **`;`** → much easier than backtick on Swiss QWERTZ keyboards.
 * Keeps navigation **fast, consistent, and Vim-like**.
 
